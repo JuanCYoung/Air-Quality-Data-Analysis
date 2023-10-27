@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 #read dataset
-data_df = pd.read_csv("all_data_csv")
+data_df = pd.read_csv("all_data.csv")
 
 #Fungsi 
 def max_pm25_2015(data_df):
