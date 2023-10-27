@@ -56,7 +56,6 @@ ax[1].tick_params(axis='x', labelsize=30)
  
 st.pyplot(fig)
 
-#Perkembangan Pm2.5 dan Pm10
 # Perkembangan Pm2.5 dan Pm10
 st.subheader("The development of PM2.5 and PM10 each year.")
 fig_pm2_5 = plt.figure(figsize=(10, 5))
