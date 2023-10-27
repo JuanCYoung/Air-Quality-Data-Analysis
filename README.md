@@ -36,6 +36,6 @@ This project containts Air-Quality-Dataset. The purpose of this project is to an
     ```
 
 ## Note
-Your contributions and feedback are valuable. Please feel free to leave comments and suggestions on areas where I can improve. Your input is greatly appreciated.
+I know this project really simple and doesn't explaine much, but you can leave a feedback. Please feel free to leave comments or critism and suggestions on areas where I can improve. Your input is greatly appreciated.
 
    
