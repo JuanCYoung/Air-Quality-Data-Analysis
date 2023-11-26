@@ -1,8 +1,8 @@
-# Submission Dicoding "Belajar Data Analytics dengan Python"
+# Air Quality Data Analysis in China"
 
 ## Project Data Analytics
 
-This repository contains a simple Dicoding data analytics project about Air Quality in China, Deployed locally using  **Streamlit** 
+This repository contains a simple Dicoding data analytics project about Air Quality in China, Deployed locally and cloud using  **Streamlit** 
 
 ## Description
 This project containts Air-Quality-Dataset. The purpose of this project is to analyze the overall Air Quality Dataset.
