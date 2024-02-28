@@ -39,18 +39,18 @@ colors = ["#90CAF9", "#D3D3D3", "#D3D3D3", "#D3D3D3", "#D3D3D3"]
  
 sns.barplot(x="PM2.5",y="station", data=data_max_pm_2150.sort_values(by="PM2.5", ascending=False).head(5), palette=colors, ax=ax[0])
 ax[0].set_ylabel(None)
-ax[0].set_xlabel("Tingkat PM2.5", fontsize=30)
-ax[0].set_title("Stasiun dengan Tingkat PM2.5 Paling Tinggi", loc="center", fontsize=50)
+ax[0].set_xlabel("Tingkat PM2.5 Rate", fontsize=25)
+ax[0].set_title("Station with Highest PM2.5", loc="center", fontsize=50)
 ax[0].tick_params(axis='y', labelsize=35)
 ax[0].tick_params(axis='x', labelsize=30)
  
 sns.barplot(x="PM2.5",y="station", data=data_max_pm_2150.sort_values(by="PM2.5", ascending=True).head(5), palette=colors, ax=ax[1])
 ax[1].set_ylabel(None)
-ax[1].set_xlabel("Tingkat PM2.5", fontsize=30)
+ax[1].set_xlabel("Tingkat PM2.5 Rate", fontsize=25)
 ax[1].invert_xaxis()
 ax[1].yaxis.set_label_position("right")
 ax[1].yaxis.tick_right()
-ax[1].set_title("Stasiun dengan Tingkat PM2.5 Paling Rendah", loc="center", fontsize=50)
+ax[1].set_title("Station with Lowest PM2.5", loc="center", fontsize=50)
 ax[1].tick_params(axis='y', labelsize=35)
 ax[1].tick_params(axis='x', labelsize=30)
  
